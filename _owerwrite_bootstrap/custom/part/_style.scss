@@ -1,0 +1,51 @@
+$profile-color: #141414;
+.buttonsProfile {
+	background-color: $profile-color;
+	border: gray;
+}
+
+.btnOptProfile:hover {
+	background-color: $light;
+	color: $dark;
+}
+.editBtn {
+	width: 100px;
+	height: 40px;
+	&:hover {
+		background-color: $light;
+		color: $dark;
+	}
+}
+.borderLine {
+	border-bottom: 0.5px solid $secondary;
+}
+.link {
+	ul {
+		text-decoration: none;
+		list-style: none;
+		padding: 0;
+		li {
+			color: grey;
+			padding: 10px 0;
+		}
+	}
+}
+ul {
+	list-style: none;
+	li {
+		text-decoration: none;
+	}
+}
+a:visited {
+	text-decoration: none;
+}
+a:link {
+	color: rgb(14, 99, 203);
+	text-decoration: none;
+}
+a:hover {
+	color: white;
+}
+a {
+	color: grey;
+}

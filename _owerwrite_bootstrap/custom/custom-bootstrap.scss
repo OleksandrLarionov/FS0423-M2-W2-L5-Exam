@@ -1,0 +1,17 @@
+@import "../scss/functions";
+@import "../scss/variables";
+@import "../custom/part/style.scss";
+
+$new-primary: $orange;
+$new-info: #666666;
+$profile-color: #141414;
+
+$new-theme-colors: (
+	"primary": $new-primary,
+	"info": $new-info,
+	"dark": $profile-color,
+);
+
+$theme-colors: map-merge($theme-colors, $new-theme-colors);
+
+@import "../scss/bootstrap.scss";
